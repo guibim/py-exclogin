@@ -1,5 +1,6 @@
 # py-exclogin
 ## Teste simples de login e logout no site para testes The Internet
+Arquivo teste-headless feito para executar sem a necessidade da interface gráfica do navegador.
 
 ## Ferramentas utilizadas
 Vscode <br /> 
