@@ -10,17 +10,17 @@
   Para verificar se o sistema responde corretamente e realiza o logout  <br /> 
 
  ### Cenário 1: Login com credenciais inválidas
-    Given que estou na página de login <br /> 
-    When eu insiro um nome de usuário inválido "usuarioteste" <br /> 
-    And eu insiro uma senha inválida "senhateste" <br /> 
-    And eu clico no botão de login <br /> 
-    Then vejo uma mensagem de erro informando "Seu nome de usuário é inválido!" <br /> 
+    Given que estou na página de login 
+    When eu insiro um nome de usuário inválido "usuarioteste" 
+    And eu insiro uma senha inválida "senhateste" 
+    And eu clico no botão de login 
+    Then vejo uma mensagem de erro informando "Seu nome de usuário é inválido!" 
 
  ### Cenário 2: Login com credenciais válidas
-    Given que estou na página de login <br /> 
-    When eu insiro um nome de usuário válido "tomsmith" <br /> 
-    And eu insiro uma senha válida "SuperSecretPassword!" <br /> 
-    And eu clico no botão de login <br /> 
-    Then vejo uma mensagem de sucesso informando "Você fez login com sucesso!" <br /> 
-    And eu clico no botão de logout <br /> 
-    Then sou redirecionado para a página de login <br /> 
+    Given que estou na página de login 
+    When eu insiro um nome de usuário válido "tomsmith" 
+    And eu insiro uma senha válida "SuperSecretPassword!" 
+    And eu clico no botão de login 
+    Then vejo uma mensagem de sucesso informando "Você fez login com sucesso!" 
+    And eu clico no botão de logout 
+    Then sou redirecionado para a página de login 
