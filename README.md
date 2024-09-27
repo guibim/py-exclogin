@@ -1,2 +1,26 @@
 # py-exclogin
-Teste simples de login e logout no site para testes The Internet
+## Teste simples de login e logout no site para testes The Internet
+
+
+## GHERKIN - BDD
+
+### Funcionalidade: Testar a funcionalidade de login no site "The Internet" <br /> 
+  Como usuário do sistema <br /> 
+  Quero testar o login com credenciais válidas e inválidas <br /> 
+  Para verificar se o sistema responde corretamente e realiza o logout  <br /> 
+
+ ### Cenário 1: Login com credenciais inválidas
+    Given que estou na página de login <br /> 
+    When eu insiro um nome de usuário inválido "usuarioteste" <br /> 
+    And eu insiro uma senha inválida "senhateste" <br /> 
+    And eu clico no botão de login <br /> 
+    Then vejo uma mensagem de erro informando "Seu nome de usuário é inválido!" <br /> 
+
+ ### Cenário 2: Login com credenciais válidas
+    Given que estou na página de login <br /> 
+    When eu insiro um nome de usuário válido "tomsmith" <br /> 
+    And eu insiro uma senha válida "SuperSecretPassword!" <br /> 
+    And eu clico no botão de login <br /> 
+    Then vejo uma mensagem de sucesso informando "Você fez login com sucesso!" <br /> 
+    And eu clico no botão de logout <br /> 
+    Then sou redirecionado para a página de login <br /> 
