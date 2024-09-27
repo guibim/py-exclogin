@@ -1,6 +1,11 @@
 # py-exclogin
 ## Teste simples de login e logout no site para testes The Internet
 
+## Ferramentas utilizadas
+Vscode <br /> 
+Python <br /> 
+Selenium <br /> 
+ChromeDriver <br /> 
 
 ## GHERKIN - BDD
 
